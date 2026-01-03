@@ -10,8 +10,12 @@ This project uses the CIFAR-10 dataset, consisting of 60,000 32 $\times$ 32 colo
 
 For training the GAN models, only images from the **bird** class were used.
 
-(List data preprocessing steps (normalization, resizing, ...))
+(List data preprocessing steps (normalization, resizing, data split ...))
 
 ## Methods
 
+(Explain Vanilla GAN and ProGAN with citations)
+
 ## Results
+
+## References 
