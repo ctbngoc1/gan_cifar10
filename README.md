@@ -110,13 +110,17 @@ As in the Vanilla GAN setup, the generator was trained using random latent vecto
 
 The Vanilla GAN was able to learn basic visual features of the bird class after sufficient training. Generated images showed correct color distribution but noticeable blurriness. While the generator was able to capture the general structure of the bird images, finer details were still weak due to the instability of standard GAN training at a fixed resolution.
 
-![***Figure 1:** Final samples of Vanilla GAN*](images/vanilla_gan/vanilla_gan_final_samples.png "Final samples of Vanilla GAN")
+![](images/vanilla_gan/vanilla_gan_final_samples.png "Final samples of Vanilla GAN")
+
+***Figure 1:** Final samples of Vanilla GAN*
 
 ### ProGAN
 
 The ProGAN producedhigher-quality images, with sharper edges and clearer bird shapes, compared to the Vanilla GAN. This is because the progressive growing nature of ProGAN allows the model to first learn the overall structure before filling in the finer details, which results in a more stable training behavior. However, there are visible artifacts present in several generated images, indicating further architectural tuning may be needed.
 
-![***Figure 2:** Final samples of ProGAN*](images/pro_gan/pro_gan_final_samples.png "Final samples of ProGAN")
+![](images/pro_gan/pro_gan_final_samples.png "Final samples of ProGAN")
+
+***Figure 2:** Final samples of ProGAN*
 
 ## References
 
